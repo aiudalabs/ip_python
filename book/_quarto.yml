@@ -1,0 +1,64 @@
+project:
+  type: book
+  output-dir: ../docs
+
+book:
+  cover-image: logo_new.png
+  title: "Inroducción a la Programacion en Python"
+  description: | 
+    The idea is to summarize all ML topics and how I see and understand them.
+  author:
+  - name: "Noel Moreno Lemus, Ph.D."
+    url: https://www.linkedin.com/in/nmlemus/
+    affiliation: Aiuda Academy
+    affiliation-url: https://www.linkedin.com/in/nmlemus/
+  page-navigation: true
+  search: true
+  favicon: logo_new.png
+  twitter-card: true
+  repo-url: https://github.com/aiudalabs/ip_python/
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
+  chapters:
+    - index.qmd
+    - intro_computacion.qmd
+    - conclusions.qmd
+    - ref_appendices/references.qmd
+  appendices:
+    - ref_appendices/appendices.qmd
+
+highlight-style: pygments
+
+comments:
+  hypothesis: true
+
+page-footer:
+  right: "This page is built with [Aiuda Academy](https://quarto.org/)."
+  left: "&copy; CC-1.0"
+
+bibliography: ref_appendices/references.bib
+
+execute:
+    echo: false
+
+format:
+  epub:
+    epub-cover-image: logo_new.png
+  html:
+    theme: cosmo
+    code-fold: true
+  pdf:
+    documentclass: scrbook
+    papersize: letter
+    colorlinks: true
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
+
+
+

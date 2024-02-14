@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Inroducción a la Programacion en Python",
+    "section": "",
+    "text": "Introduction\nMachine learning is a rapidly growing field that enables computers to learn from data, without being explicitly programmed. The goal of machine learning is to build models that can make predictions or take actions based on input data, and improve their performance over time through experience."
+  },
+  {
+    "objectID": "index.html#overview-of-machine-learning",
+    "href": "index.html#overview-of-machine-learning",
+    "title": "Inroducción a la Programacion en Python",
+    "section": "Overview of Machine Learning:",
+    "text": "Overview of Machine Learning:\nMachine learning is a subfield of artificial intelligence that involves the development of algorithms and statistical models that allow computers to learn from data. There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning.\nSupervised learning is the most common type of machine learning, in which a model is trained on a labeled dataset to make predictions about new, unseen data. Examples include linear regression, logistic regression, and decision trees.\nUnsupervised learning involves discovering patterns in unlabeled data, such as clustering and dimensionality reduction.\nReinforcement learning involves training an agent to make decisions in an environment to maximize a reward."
+  },
+  {
+    "objectID": "index.html#applications-of-machine-learning",
+    "href": "index.html#applications-of-machine-learning",
+    "title": "Inroducción a la Programacion en Python",
+    "section": "Applications of Machine Learning",
+    "text": "Applications of Machine Learning\nMachine learning has many applications in various industries, including:\n\nHealthcare: for example, identifying potential health risks, diagnosing diseases, and creating personalized treatment plans\nFinance: for example, detecting fraudulent transactions, predicting stock prices, and identifying potential investment opportunities\nRetail: for example, personalizing product recommendations, optimizing pricing strategies, and improving supply chain efficiency\nManufacturing: for example, predictive maintenance, quality control, and optimization of production processes\nTransportation: for example, traffic prediction, autonomous driving, and fleet management\nCybersecurity: for example, intrusion detection, anomaly detection, and threat intelligence"
+  },
+  {
+    "objectID": "index.html#key-concepts-and-terminology",
+    "href": "index.html#key-concepts-and-terminology",
+    "title": "Inroducción a la Programacion en Python",
+    "section": "Key Concepts and Terminology",
+    "text": "Key Concepts and Terminology\nMachine learning is a complex field with many technical terms and concepts. Some key terms and concepts that will be covered in this book include:\n\nModel: a representation of the relationships between input data and output predictions or actions\nTraining: the process of fitting a model to a dataset\nTesting: the process of evaluating a model on new, unseen data\nOverfitting: when a model is too complex and performs well on the training data but poorly on the test data\nRegularization: a technique for preventing overfitting by adding a penalty term to the model’s objective function\nGradient descent: an optimization algorithm for finding the minimum of a function\nNeural networks: a type of model that is inspired by the structure and function of the human brain\nConvolutional neural networks (CNNs): a type of neural network designed for image recognition\nRecurrent neural networks (RNNs): a type of neural network designed for sequential data such as time series and natural language."
+  },
+  {
+    "objectID": "index.html#versions-used-in-this-book",
+    "href": "index.html#versions-used-in-this-book",
+    "title": "Inroducción a la Programacion en Python",
+    "section": "Versions Used in this Book",
+    "text": "Versions Used in this Book\n\n\nCode\nimport sys\nprint(\"Python version: {}\".format(sys.version))\nimport pandas as pd\nprint(\"pandas version: {}\".format(pd.__version__))\nimport matplotlib\nprint(\"matplotlib version: {}\".format(matplotlib.__version__))\nimport numpy as np\nprint(\"NumPy version: {}\".format(np.__version__))\nimport scipy as sp\nprint(\"SciPy version: {}\".format(sp.__version__))\nimport IPython\nprint(\"IPython version: {}\".format(IPython.__version__))\nimport sklearn\nprint(\"scikit-learn version: {}\".format(sklearn.__version__))\n\n\nPython version: 3.12.0 | packaged by Anaconda, Inc. | (main, Oct  2 2023, 17:29:18) [GCC 11.2.0]\npandas version: 2.2.0\nmatplotlib version: 3.8.2\nNumPy version: 1.26.2\nSciPy version: 1.12.0\nIPython version: 8.19.0\n\n\nscikit-learn version: 1.4.0"
+  },
+  {
+    "objectID": "intro_computacion.html#qué-es-una-computadora",
+    "href": "intro_computacion.html#qué-es-una-computadora",
+    "title": "1  Introducción a la Computación",
+    "section": "1.1 ¿Qué es una Computadora?",
+    "text": "1.1 ¿Qué es una Computadora?\nLa palabra “computadora” tiene dos orígenes principales:\n\nEtimología:\n\n\nLatín: La palabra “computadora” proviene del verbo latino “computare”, que significa “calcular”. Este verbo se deriva de la palabra “putare”, que significa “contar” o “podar”.\nEspañol: La palabra “computadora” se formó a partir del verbo “computar”, que significa “realizar cálculos”. Este verbo se deriva del latín “computare”.\n\n\nInfluencia del inglés:\n\n\nSiglo XX: A principios del siglo XX, la palabra inglesa “computer” se introdujo en español para referirse a las máquinas calculadoras mecánicas.\nAdaptación: La palabra “computer” se adaptó al español como “computadora” para mantener la pronunciación similar.\n\nSegún la RAE una computadora (o computador) es una Máquina electrónica que, mediante determinados programas, permite almacenar y tratar información, y resolver problemas de diversa índole. https://dle.rae.es/computador"
+  },
+  {
+    "objectID": "intro_computacion.html#principales-componentes-de-una-computadora",
+    "href": "intro_computacion.html#principales-componentes-de-una-computadora",
+    "title": "1  Introducción a la Computación",
+    "section": "1.2 Principales Componentes de una Computadora",
+    "text": "1.2 Principales Componentes de una Computadora\nUna computadora está formada por dos partes principales: hardware y software.\n\nHardware:\nEs la parte física de la computadora, que puedes ver y tocar.\nSe compone de muchos componentes, como:\n\nUnidad central de procesamiento (CPU): Es el “cerebro” de la computadora, que ejecuta las instrucciones del software.\nMemoria (RAM): Almacena datos e instrucciones de forma temporal mientras la computadora está funcionando.\nAlmacenamiento: Almacena datos de forma permanente, como el sistema operativo, programas y archivos personales.\nDispositivos de entrada: Permiten al usuario interactuar con la computadora, como el teclado, el mouse y la pantalla táctil.\nDispositivos de salida: Permiten a la computadora mostrar o reproducir información, como el monitor, la impresora y los altavoces.\n\n\n\nSoftware:\nEs la parte intangible de la computadora, que le da instrucciones al hardware qué hacer.\nSe compone de muchos programas, como:\n\nSistema operativo: Controla el funcionamiento básico de la computadora y proporciona una interfaz para ejecutar otros programas.\nAplicaciones: Programas que realizan tareas específicas, como navegar por internet, escribir documentos o jugar juegos.\n\nSi bien todos los componentes de un computador son importantes para su funcionamiento, la CPU (Unidad Central de Procesamiento) y la memoria RAM (Memoria de Acceso Aleatorio) son dos piezas clave para comprender los conceptos básicos de la programación."
+  },
+  {
+    "objectID": "intro_computacion.html#memoria-ram",
+    "href": "intro_computacion.html#memoria-ram",
+    "title": "1  Introducción a la Computación",
+    "section": "1.3 Memoria RAM:",
+    "text": "1.3 Memoria RAM:\n\nFunción: La memoria RAM actúa como un gran almacén de información temporal. Aquí se almacenan todo tipo de datos: números, textos, imágenes, etc., mientras el computador está funcionando.\nAnalogía: Imagina la memoria RAM como tu escritorio. Puedes colocar allí libros, papeles, lápices y otros objetos que necesitas para trabajar en el momento. Cuando terminas con ellos, los guardas en su lugar para usarlos más tarde.\nImportancia: La memoria RAM es crucial para la velocidad del computador. Si la memoria RAM es insuficiente, el computador puede ralentizarse o incluso bloquearse. CPU:"
+  },
+  {
+    "objectID": "intro_computacion.html#la-cpu",
+    "href": "intro_computacion.html#la-cpu",
+    "title": "1  Introducción a la Computación",
+    "section": "1.4 La CPU",
+    "text": "1.4 La CPU\n\nFunción: La CPU se considera el “cerebro” del computador. Es la responsable de realizar las operaciones matemáticas y lógicas sobre los datos almacenados en la memoria RAM.\nComponentes: La CPU se compone de varios elementos clave:\n\nUnidad de control (UC): Es el director de orquesta de la CPU. La UC recibe las instrucciones del software, las decodifica y las envía a las unidades correspondientes para su ejecución.\nUnidad aritmético lógica (ALU): Es la calculadora de la CPU. Realiza operaciones matemáticas y lógicas como sumar, restar, comparar y multiplicar.\nRegistros: Son pequeños espacios de almacenamiento rápido dentro de la CPU. Se utilizan para almacenar temporalmente datos e instrucciones que están siendo procesados.\n\nAnalogía: Imagina la CPU como una fábrica. La UC es el jefe de planta que recibe las órdenes de producción, la ALU es la maquinaria que realiza el trabajo y los registros son las cintas transportadoras que mueven los materiales.\nImportancia: La velocidad y la potencia de la CPU determinan en gran medida el rendimiento del computador. Una CPU más rápida puede ejecutar programas más complejos y realizar tareas con mayor rapidez."
+  },
+  {
+    "objectID": "intro_computacion.html#relación-entre-cpu-y-memoria-ram",
+    "href": "intro_computacion.html#relación-entre-cpu-y-memoria-ram",
+    "title": "1  Introducción a la Computación",
+    "section": "1.5 Relación entre CPU y memoria RAM:",
+    "text": "1.5 Relación entre CPU y memoria RAM:\nLa CPU y la memoria RAM trabajan juntas en estrecha colaboración. La CPU lee datos e instrucciones de la memoria RAM, los procesa y luego guarda los resultados en la memoria RAM.\nLa velocidad de la memoria RAM afecta directamente la velocidad a la que la CPU puede acceder a los datos. Una memoria RAM más rápida permite que la CPU funcione de manera más eficiente.\n\n\n\nInteracción entre RAM y CPU\n\n\nPara comprender mejor el funcionamiento de la memoria y la CPU en un computador, podemos utilizar una analogía sencilla:\nImaginemos la memoria RAM como un armario enorme con una gran cantidad de cajones numerados. Cada cajón representa una celda de memoria, donde se almacena un único dato. El número de cada cajón, también conocido como posición o dirección, identifica la celda específica en la memoria.\nLa CPU sería como una persona que trabaja en el armario. Esta persona tiene dos herramientas principales:\n\nCalculadora (UAL): La UAL realiza operaciones matemáticas y lógicas sobre los datos.\nLista de instrucciones: Esta lista indica a la persona qué operaciones realizar con los datos y dónde encontrarlos en el armario.\n\nCada posición de memoria permite almacenar una secuencia de unos y ceros de tamaño fijo. La elección de ceros y unos obedece a la sencillez con que es posible construir dispositivos binarios, es decir, que pueden adoptar dos posibles estados: encendido/apagado, hay corriente/no hay corriente, cierto/falso, …"
+  },
+  {
+    "objectID": "intro_computacion.html#codificación-de-la-información",
+    "href": "intro_computacion.html#codificación-de-la-información",
+    "title": "1  Introducción a la Computación",
+    "section": "1.6 Codificación de la Información",
+    "text": "1.6 Codificación de la Información\nVeamos ahora como se representa la información con números binarios y como se llega desde esta codificación de la información a los diferentes tipos de lenguajes de programación.\nHagámozlo mediante un ejemplo:\nSupongamos que queremos sumar dos números, \\(5 + 7\\). Estos dos números están codificados en los muy familiares simbolos arábigos \\(\\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}\\) que son los símbolos del sistema numérico decimal (en base 10).\n\n¿Qué significa que un número esté en base 10?\nSignifica que este número puede ser representado como el producto de un coeficiente (que pertenece a nuestra lista de símbolos) y el \\(10\\) (nuestra base) elevando a determinado exponente. Ejemplo:\n\\[5 = 5 \\times 10^0\\] \\[98 = 9 \\times 10^1 + 8 \\times 10^0\\]\n\\[245 = 2 \\times 10^2 + 4 \\times 10^1 + 5 \\times 10^0\\]\ny así sucesivamente.\nBueno, pues exactamente lo mismo se puede hacer en base dos. En este caso nuestro grupo de símbolos estaría formado por dos elementos \\(\\{0, 1\\}\\) y la base sería el \\(2\\).\nAsí podemos escribir números como:\n\\[101 = 1 \\times 2^2 + 0 \\times 2^1 + 1 \\times 2^0 = 1 \\times 4 + 0 \\times 2 + 1 \\times 1 = 5\\]\nPues si, el \\(101\\) es el número 5 en binario.\nUna variable que sólo puede tomar uno de los dos valores binarios recibe el nombre de bit (acrónimo del inglés “binary digit”). Las celdas de memoria tienen tamaño fijo, usualmente 8 bits, esta secuencia de 8 bits recibe el nombre de byte.\nVolviendo a nuestro ejemplo, si queremos sumar \\(5 + 7\\) lo primero que la computadora tiene que hacer es almacenar estos dos números como números binarios, cada uno en una celda diferente.\n\\[5 = 00000101\\] \\[7 = 00000111\\]\nLa suma de estos dos numeros daría como resultado el número 12 que en binario es \\(00001100\\)\n\n\n\n\n\n\nNo es objetivo de este curso enseñar a sumar números binários\n\n\n\nPara aquellos que tengan interés pueden consultar este link &lt;&gt;\n\n\n\n\n1.6.1 ¿Cómo representar textos?\nYa vimos de forma muy breve como representar números, ahora veamos como podemos representar texto. Para facilitar este proceso de codificación de texto a biinario existe una tabla llamada código ASCII (acrónimo inglés de American Standard Code for Information Interchange) que puede ser consultada en el link https://es.wikipedia.org/wiki/ASCII.\n\n\n\nEjemplo Código ASCII\n\n\nPor ejemplo la letra a se representa como \\(0110 0001\\), mientras que la A sería el \\(0100 0001\\). La palabra “Hola” se traduciría a binario como:\n\\[01001000\\ 01101111\\ 01101100\\ 01100001\\]"
+  },
+  {
+    "objectID": "intro_computacion.html#código-máquina",
+    "href": "intro_computacion.html#código-máquina",
+    "title": "1  Introducción a la Computación",
+    "section": "1.7 Código Máquina",
+    "text": "1.7 Código Máquina\nLas computadoras no entienden nuestro lenguaje. Funcionan con electricidad, interpretando solo señales de encendido (1) y apagado (0), también. Para que podamos interactuar con ellas, se creó el lenguaje máquina, un conjunto de instrucciones que las máquinas pueden entender y ejecutar directamente. Sin embargo, el lenguaje máquina es complejo y difícil de leer para los humanos.\n\n1.7.1 Mnemónicos: Un lenguaje más amigable\nPara facilitar la programación, se crearon los mnemónicos. Son códigos abreviados que representan las instrucciones del lenguaje máquina en un lenguaje más cercano al humano. En lugar de recordar largas cadenas de ceros y unos, los programadores pueden usar palabras o frases cortas que son más fáciles de recordar y comprender.\nEjemplo:\nLa instrucción “ADD” en lenguaje máquina podría ser:\n\\[01000001\\ 00000001\\ 00000010\\ 00000011\\]\nEn mnemónico, la misma instrucción sería:\nADD AX, BX\n\n¿Cómo se hace la traducción?\nPara realizar la traducción existen los programas ensambladures, cuya funciones es la de traducir el código mnemónico a lenguaje máquina. El ensamblador lee el código mnemónico línea por línea, lo convierte a su equivalente en ceros y unos, y lo guarda en un archivo que la computadora puede ejecutar.\n\n\nVentajas de los mnemónicos:\n\nFacilidad de lectura: El código mnemónico es más fácil de leer y comprender para los humanos que el lenguaje máquina.\nFacilidad de escritura: Escribir código en mnemónico es más rápido y menos propenso a errores que escribir en lenguaje máquina.\nMantenimiento: El código mnemónico es más fácil de mantener y actualizar que el código en lenguaje máquina.\n\n\n\nDesventajas de los mnemónicos:\n\nDependencia del ensamblador: Se requiere un ensamblador para traducir el código mnemónico a lenguaje máquina.\nMenos eficiente: El código generado por un ensamblador puede no ser tan eficiente como el código escrito directamente en lenguaje máquina.\n\n\n\n\n1.7.2 Lenguaje Ensamblador\nEl repertorio de códigos mnemotécnicos traducible a código de máquina y las reglas que permiten combinarlos, expresar direcciones, codificar valores numéricos, etc., recibe el nombre de lenguaje ensamblador, y es otro lenguaje de programación.\n\n\n\n\n\n\nCuriosidades\n\n\n\n\nKilobyte no son 1000 bytes:\n\n\nUn kilobyte (KB) no son 1000 bytes, sino 1024 bytes.\n\nEsto se debe a que 1024 es una potencia de dos (2^10), mientras que 1000 no lo es.\nLa razón de usar potencias de dos para las unidades de almacenamiento es que facilita la organización y el acceso a la memoria en las computadoras.\n\n\n\nTamaños de memoria y almacenamiento siempre son múltiplos de dos:\n\n\nLas memorias RAM, SSD, HDD y otras unidades de almacenamiento siempre tienen tamaños que son múltiplos de dos.\n\nEsto se debe a que la memoria se organiza en unidades de bits, y las operaciones de lectura y escritura se realizan de forma más eficiente con unidades de tamaño uniforme.\n\n\n\nEl byte como unidad fundamental:\n\n\nEl byte es la unidad fundamental de almacenamiento en las computadoras.\nUn byte está formado por 8 bits, lo que permite representar 256 valores diferentes (2^8).\nEsta cantidad de valores es suficiente para representar los caracteres alfanuméricos, símbolos y algunos caracteres especiales.\n\n\nUnicode y los bytes:\n\n\nEl estándar Unicode utiliza dos bytes para representar la mayoría de los caracteres, lo que permite codificar una gran variedad de idiomas y símbolos.\nEsto ha permitido la internacionalización de las computadoras y el desarrollo de aplicaciones que pueden trabajar con diferentes idiomas.\n\nOtras curiosidades:\n\nEl término “byte” fue acuñado por Werner Buchholz en 1956.\nLa primera memoria RAM comercial fue la IBM 1401, que tenía una capacidad de 4096 bytes.\nLa capacidad de almacenamiento de los discos duros ha crecido exponencialmente en las últimas décadas."
+  },
+  {
+    "objectID": "intro_computacion.html#lenguajes-de-programación",
+    "href": "intro_computacion.html#lenguajes-de-programación",
+    "title": "1  Introducción a la Computación",
+    "section": "1.8 Lenguajes de Programación",
+    "text": "1.8 Lenguajes de Programación\n\n1.8.1 Lenguajes de Bajo Nivel\n\n1.8.1.1 Ensamblador\n\n\n\n1.8.2 Lenguajes Intermédios\n\n1.8.2.1 C/C++\n\n\n\n1.8.3 Lenguajes de Alto Nivel\n\n1.8.3.1 Python"
+  },
+  {
+    "objectID": "intro_computacion.html#por-qué-python",
+    "href": "intro_computacion.html#por-qué-python",
+    "title": "1  Introducción a la Computación",
+    "section": "1.9 ¿Por qué Python?",
+    "text": "1.9 ¿Por qué Python?"
+  },
+  {
+    "objectID": "conclusions.html",
+    "href": "conclusions.html",
+    "title": "2  Conclusion",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "ref_appendices/appendices.html#mathematical-proofs",
+    "href": "ref_appendices/appendices.html#mathematical-proofs",
+    "title": "Appendix A — Appendices",
+    "section": "A.1 Mathematical Proofs",
+    "text": "A.1 Mathematical Proofs"
+  },
+  {
+    "objectID": "ref_appendices/appendices.html#additional-resources",
+    "href": "ref_appendices/appendices.html#additional-resources",
+    "title": "Appendix A — Appendices",
+    "section": "A.2 Additional Resources",
+    "text": "A.2 Additional Resources"
+  }
+]
